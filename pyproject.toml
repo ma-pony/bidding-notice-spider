@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bidding-notice-spider"
+version = "0.1.0"
+description = ""
+authors = ["Pony.Ma <mtf201013@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bidding_notice_spider"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright = "^1.37.0"
+fastapi = "^0.103.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
