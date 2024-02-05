@@ -9,7 +9,7 @@ packages = [{include = "bidding_notice_spider"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 playwright = "^1.37.0"
-fastapi = "^0.103.1"
+fastapi = "^0.109.1"
 uvicorn = {extras = ["standard"], version = "^0.23.2"}
 parsel = "^1.8.1"
 
